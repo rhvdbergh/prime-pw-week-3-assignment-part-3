@@ -76,3 +76,8 @@ while (count < supplyChanges.length) {
 // 9. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('9. Total supplies available is:');
+let total = 0;
+for (val of supplyChanges) {
+  total += val;
+}
+console.log(total);
